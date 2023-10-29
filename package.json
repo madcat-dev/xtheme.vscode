@@ -1,0 +1,23 @@
+{
+    "name": "xtheme",
+    "displayName": "XTheme",
+    "description": "A xtheme color theme for vscode",
+    "version": "0.0.1",
+    "publisher": "Madcat",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "xtheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/colors-vscode.json"
+            }
+        ]
+    }
+}
